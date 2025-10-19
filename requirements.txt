@@ -1,0 +1,7 @@
+yfinance
+ipython
+numpy
+scipy
+matplotlib
+pandas
+seaborn
