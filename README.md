@@ -21,7 +21,7 @@ Codespaces allows development directly in the cloud, from **any device**, withou
      ```bash
      pip install -r requirements.txt
      ```
-5. All necessary **data files**, **images**, and **notebooks** are organized within the repository folders for straightforward execution.
+5. All necessary **data files** and **notebooks** are organized within the repository folders for straightforward execution.
 
 ---
 
