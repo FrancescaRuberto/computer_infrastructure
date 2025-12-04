@@ -27,5 +27,13 @@ Codespaces allows development directly in the cloud, from **any device**, withou
 
 ## 📁 Repository Structure
 
+This repository is organized to provide a clean and reproducible workflow for solving the assigned problems and generating visual analyses:
+
+- **`.gitignore`** – Configured to exclude unnecessary files and keep the repository clean.  
+- **`requirements.txt`** – Lists all dependencies needed to run the notebook and scripts:  
+  `yfinance`, `ipython`, `numpy`, `scipy`, `matplotlib`, `pandas`, `seaborn`  
+- **`notebook.ipynb`** – A Jupyter Notebook containing all solved problems, with the code split into clear sections and enriched with explanatory comments and resources for each problem.  
+- **`data/`** – Stores CSV files containing the last 5 days of data for the five FAANG stocks.  
+- **`plots/`** – Contains the generated plots. Each plot shows the Close prices of the five FAANG stocks on a single figure. Plots are saved with filenames in the format `YYYYMMDD-HHmmss.png`.
 
 
