@@ -35,5 +35,7 @@ This repository is organized to provide a clean and reproducible workflow for so
 - **`notebook.ipynb`** – A Jupyter Notebook containing all solved problems, with the code split into clear sections and enriched with explanatory comments and resources for each problem.  
 - **`data/`** – Stores CSV files containing the last 5 days of data for the five FAANG stocks.  
 - **`plots/`** – Contains the generated plots. Each plot shows the Close prices of the five FAANG stocks on a single figure. Plots are saved with filenames in the format `YYYYMMDD-HHmmss.png`.
+- .github/workflows/ – Contains the GitHub Actions workflow (faang.yml), which automates the execution of the faang.py script every Saturday morning.
+
 
 
