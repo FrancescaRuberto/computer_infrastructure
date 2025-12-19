@@ -52,4 +52,15 @@ Generated CSV files and plots are stored locally within the repository structure
 
 The project is designed to be fully reproducible. All dependencies are explicitly listed in `requirements.txt`, and the same execution environment is used locally, in GitHub Codespaces, and within GitHub Actions workflows.
 
+---
 
+## 🤖 Automation and Scheduling
+
+The project includes an automated workflow implemented using GitHub Actions. The workflow is defined in `.github/workflows/faang.yml` and runs the `faang.py`
+script automatically every Saturday morning.
+
+This shows how to automate data collection and analysis on a schedule, so the process runs automatically without needing manual steps.
+
+---
+
+## End.
