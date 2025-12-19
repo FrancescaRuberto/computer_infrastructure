@@ -1,7 +1,8 @@
 # Computer Infrastructure
 
-This repository has been created for the **Computer Infrastructure** course.  
-Its primary purpose is to **collect assigned assessments**, showcasing practical implementations and exercises completed throughout the course.
+This repository has been created for the **Computer Infrastructure** course. Its primary purpose is to **collect assigned assessments**, showcasing practical implementations and exercises completed throughout the course.
+
+This repository contains a set of practical exercises focused on data collection and analysis. It also demonstrates the use of cloud-based development environments and basic automation to run data analysis tasks on a scheduled basis.
 
 ---
 
@@ -35,7 +36,20 @@ This repository is organized to provide a clean and reproducible workflow for so
 - **`notebook.ipynb`** – A Jupyter Notebook containing all solved problems, with the code split into clear sections and enriched with explanatory comments and resources for each problem.  
 - **`data/`** – Stores CSV files containing the last 5 days of data for the five FAANG stocks.  
 - **`plots/`** – Contains the generated plots. Each plot shows the Close prices of the five FAANG stocks on a single figure. Plots are saved with filenames in the format `YYYYMMDD-HHmmss.png`.
-- ** `.github/workflows/` ** – Contains the GitHub Actions workflow (faang.yml), which automates the execution of the faang.py script every Saturday morning.
+- **`.github/workflows/`** – Contains the GitHub Actions workflow (faang.yml), which automates the execution of the faang.py script every Saturday morning.
 
+---
+
+## Data Handling
+
+All data used in this project is downloaded programmatically using the `yfinance` package. No external datasets need to be manually downloaded.
+
+Generated CSV files and plots are stored locally within the repository structure for transparency and reproducibility.
+
+---
+
+## Reproducibility and Environment
+
+The project is designed to be fully reproducible. All dependencies are explicitly listed in `requirements.txt`, and the same execution environment is used locally, in GitHub Codespaces, and within GitHub Actions workflows.
 
 
