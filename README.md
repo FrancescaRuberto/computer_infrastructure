@@ -40,7 +40,7 @@ This repository is organized to provide a clean and reproducible workflow for so
 
 ---
 
-## Data Handling
+## 📊 Data Handling
 
 All data used in this project is downloaded programmatically using the `yfinance` package. No external datasets need to be manually downloaded.
 
@@ -48,7 +48,7 @@ Generated CSV files and plots are stored locally within the repository structure
 
 ---
 
-## Reproducibility and Environment
+## 🔁 Reproducibility and Environment
 
 The project is designed to be fully reproducible. All dependencies are explicitly listed in `requirements.txt`, and the same execution environment is used locally, in GitHub Codespaces, and within GitHub Actions workflows.
 
