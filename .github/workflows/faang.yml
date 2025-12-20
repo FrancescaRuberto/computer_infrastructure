@@ -2,7 +2,7 @@ name: Run FAANG Script Weekly
 
 on:
   schedule:
-    - cron: '0 7 * * 6'  # Ogni sabato alle 07:00 UTC (inverno Dublino)
+    - cron: '0 7 * * 6'  # Every Saturday at 7AM
 
 jobs:
   run-script:
